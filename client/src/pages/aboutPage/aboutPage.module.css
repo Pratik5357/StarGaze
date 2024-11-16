@@ -1,0 +1,134 @@
+.aboutPage {
+    padding: 1.5rem;
+    background-color: #070F2B;
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  
+  .title {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #9290C3;
+  }
+  
+  .contentSection {
+    margin-bottom: 1.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    color: #535C91;
+    margin-bottom: 0.8rem;
+  }
+  
+  .text {
+    font-size: 1rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+  }
+  
+  .featuresList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .featuresList li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .callToAction {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1B1A55;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+  }
+  
+  .link {
+    color: #9290C3;
+    text-decoration: underline;
+  }
+  
+  .exploreButton {
+    margin-top: 1rem;
+    padding: 0.7rem 1.2rem;
+    background-color: #070F2B;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .exploreButton:hover {
+    background-color: #535C91;
+  }
+  
+  @media (max-width: 1080px) {
+    .aboutPage {
+      padding: 1rem;
+    }
+  
+    .title {
+      font-size: 2rem;
+    }
+  
+    .subtitle {
+      font-size: 1.3rem;
+    }
+  
+    .text, .featuresList li {
+      font-size: 0.95rem;
+    }
+  
+    .callToAction {
+      padding: 0.8rem;
+    }
+  
+    .exploreButton {
+      padding: 0.6rem 1rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      font-size: 1.8rem;
+    }
+  
+    .subtitle {
+      font-size: 1.2rem;
+    }
+  
+    .text, .featuresList li {
+      font-size: 0.9rem;
+    }
+  
+    .exploreButton {
+      padding: 0.5rem 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+      font-size: 1.6rem;
+    }
+  
+    .subtitle {
+      font-size: 1.1rem;
+    }
+  
+    .text, .featuresList li {
+      font-size: 0.85rem;
+    }
+  
+    .callToAction {
+      padding: 0.6rem;
+    }
+  
+    .exploreButton {
+      padding: 0.5rem 0.8rem;
+      font-size: 0.9rem;
+    }
+  }

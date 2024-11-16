@@ -1,0 +1,117 @@
+.loginContainer{
+    height: 90%;
+    width: 500px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    color: #c8c8c8;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.input_boxes{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 1rem;    
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    width: 100%;
+    padding: 0 1rem;
+    position: relative;
+}
+
+.inputBox label{
+    font-size: 1.2rem;
+}
+
+.inputBox input{
+    height: 45px;
+    width: 100%;
+    padding: 0 5rem;
+    padding-left: 3rem;
+    padding-right: 1rem !important;
+    line-height: 30px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    outline: none;
+    background-color: #f8fafc;
+    color: #100e2e;
+    transition: .5s ease;
+}
+
+.inputBox input::placeholder {
+    color: #94a3b8;
+}
+
+input:focus, input:hover {
+    outline: none;
+    border-color: rgba(129, 140, 248);
+    background-color: #fff;
+    box-shadow: 0 0 0 5px rgb(129 140 248 / 30%);
+}
+
+.input{
+    width: 100%;
+    position: relative;
+}
+
+.input i{
+    position: absolute;
+    left: 1rem;
+    top: 0.9rem;
+    fill: none;
+    width: 1rem;
+    height: 1rem;
+    color: #0d0c22;
+}
+.btns{
+    width: 100%;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn{
+    width: 100%;
+    border-radius: 5px;
+    height: 45px;
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+    border: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+@media(max-width: 1080px){
+    .loginContainer{
+        height: 90%;
+        width: 90%;
+        padding: 0 1rem;
+    }
+    .input_boxes{
+        margin: 0;
+    }
+    form{
+        width: 100%;
+        gap: 20px;
+    }
+    .btn{
+        background-color: #fff;
+    }
+}

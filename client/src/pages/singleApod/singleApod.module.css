@@ -1,0 +1,26 @@
+.container{
+    padding: 2rem 1rem !important;
+}
+
+.imgContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.img{
+    width:80%;
+}
+.vid{
+    width: 80%;
+    height: 600px       ;
+}
+
+@media(max-width: 1080px){
+    .img{
+        width: 100%;
+    }
+}

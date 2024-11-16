@@ -1,0 +1,32 @@
+.container h1{
+    color: #3f3e88;
+    margin-bottom: 1rem;
+}
+
+.galleryGrid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gCard{
+    width: 300px;
+    height: 300px;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.btn{
+    background-color: #535C91;
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: #1B1A55;
+}
+
+@media(max-width: 1080px){
+    .container{
+        padding: 1.7rem;
+    }
+}

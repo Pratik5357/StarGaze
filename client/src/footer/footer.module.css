@@ -1,0 +1,13 @@
+.container{
+    height: 100%;
+}
+
+.foot_title{
+    font-size: 1rem !important;
+}
+
+@media(max-width: 1080px){
+    .foot_title{
+        font-size: 0.8rem !important;
+    }
+}

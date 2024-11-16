@@ -1,0 +1,70 @@
+.container{
+ background-color: var(--primary-color);
+ min-height: 88px;
+ padding-bottom: 0 !important;
+}
+
+.active{
+    background-color: #fff;
+    color: black !important;
+    transition: 0.3s ease-in;
+}
+
+.exp_active{
+    background-color: #fff;
+    color: black !important;
+    transition: 0.3s ease-in;
+}
+
+.expDiv{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    letter-spacing: 2.5px;
+}
+
+.nav_links{
+    margin-left: auto;
+    display: flex;
+    gap: 15px;
+}
+
+.expand_nav{
+    display: none;
+}
+
+.loginBtn{
+    /* display: none; */
+    margin-left: 1rem;
+    border-color: #9ea5ab !important;
+}
+
+.loginBtn .button{
+    color: #9ea5ab;
+}
+
+.expNav{
+    display: none;
+}
+
+@media(max-width: 1080px){
+    .nav_links{
+        display: none;
+    }
+    .expand_nav{
+        display: flex;
+    }
+    .loginBtn{
+        display: block;
+    }
+    .expNav{
+        width: 100%;
+        display: flex;
+        height: 50px;
+    }
+}
